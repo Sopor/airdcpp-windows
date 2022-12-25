@@ -10,7 +10,7 @@ body:
           required: true
         - label: I performed a [cursory search of the issue tracker](https://github.com/airdcpp/airdcpp-windows/issues) to avoid opening a duplicate issue
           required: true
-        - label: I am running the latest version of AirDC++
+        - label: I am running the latest version of AirDC++ ![build](https://img.shields.io/github/release/airdcpp/airgit.svg?label=AirDC%2B%2B&maxAge=3600&logo=windows)
           required: true
     
 #  - type: checkboxes
