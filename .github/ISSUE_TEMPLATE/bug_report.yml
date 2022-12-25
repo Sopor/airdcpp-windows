@@ -1,5 +1,8 @@
 name: Bug report
 description: Create a report to help us improve
+title: ''
+labels: bug
+assignees: ''
 body:
   - type: checkboxes
     attributes:
@@ -48,13 +51,14 @@ body:
   - type: input
     attributes:
       label: AirDC++ version and architecture (x86 or x64)
+      placeholder: 4.11 x64
     validations:
       required: true
 
   - type: input
     attributes:
       label: Operating System name, version and architecture
-      placeholder:  E.g. Windows 10 21H2 x64
+      placeholder: Windows 10 21H2 x64
     validations:
       required: true
 
