@@ -41,12 +41,11 @@ body:
 
   - type: textarea
     attributes:
-      label: Steps to reproduce the behavior
-      description: |
-        Step by step.
+      label: Steps to reproduce the behavior if needed
       placeholder: |
         1.
         2.
+        3.
     validations:
       required: false
 
@@ -74,10 +73,8 @@ body:
 
   - type: textarea
     attributes:
-      label: Notes
+      label: Additional information
       description: |
-        Please investigate the issues you report -- this prevents burdening other volunteers. 
-        This is especially true for issues arising from settings which are very different from default ones.
-      placeholder: Write here the result of whatever investigation work you have done
+        " "
     validations:
       required: false
