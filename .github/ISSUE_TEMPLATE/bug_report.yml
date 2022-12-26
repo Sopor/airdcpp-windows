@@ -40,6 +40,16 @@ body:
 
   - type: textarea
     attributes:
+      label: Steps to reproduce the behavior:
+      description: |
+        Tell us what happens instead.
+      placeholder: |
+        1.
+    validations:
+      required: true
+
+- type: textarea
+    attributes:
       label: Screenshot(s)
       description: |
         Add screenshot(s) to describe visual issues. 
@@ -49,14 +59,14 @@ body:
   - type: input
     attributes:
       label: AirDC++ version and architecture (x86 or x64)
-      placeholder: 4.11 x64
+      placeholder: e.g. 4.11 x64
     validations:
       required: true
 
   - type: input
     attributes:
       label: Operating System name, version and architecture
-      placeholder: Windows 10 21H2 x64
+      placeholder: e.g. Windows 10 21H2 x64
     validations:
       required: true
 
