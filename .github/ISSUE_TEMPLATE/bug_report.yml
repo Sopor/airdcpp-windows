@@ -61,8 +61,8 @@ body:
     attributes:
       label: exceptioninfo.txt
       description: |
-        When AirDC++ crash it will sometimes create an exceptioninfo.txt.
-        Open it and verify it is the correct date and time of the crash.
+        When AirDC++ crash it will sometimes create an exceptioninfo.txt. Open it and verify it is the correct date and time of the crash.
+        If your client won't create any ex.txt you can read more [here](https://github.com/Sopor/airdcpp-windows/wiki/Client-hangs-(deadlock)#getting-information-from-a-frozen-or-hung-client) about how to get information out of a frozen client.
       placeholder: Paste all text from exceptioninfo.txt here
     validations:
       required: false
