@@ -43,10 +43,9 @@ body:
       label: Steps to reproduce the behavior
       description: |
         Tell us what happens instead.
-      placeholder: |
-        1.
+      placeholder: 1.
     validations:
-      required: true
+      required: false
 
 - type: textarea
     attributes:
