@@ -44,7 +44,9 @@ body:
       label: Steps to reproduce the behavior
       description: |
         Step by step.
-      placeholder: 1.
+      placeholder: |
+        1.
+        2.
     validations:
       required: false
 
