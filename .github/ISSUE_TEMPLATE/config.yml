@@ -1,8 +1,6 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions and support
-    url: https://github.com/airdcpp/airdcpp-windows
-    about: Answers to questions and other kinds of help support
-  - name: AirDC++ issues
-    url: https://github.com/airdcpp/airdcpp-windows
-    about: Issues about AirDC++
+  - name: Questions and discussions
+    url: https://github.com/airdcpp/airdcpp-windows/discussions
+    about: If you need help or have something to discuss
+
