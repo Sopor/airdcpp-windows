@@ -1,6 +1,7 @@
 name: Bug report
 description: Create a report to help us improve
-labels: bug
+title: "[Bug]: "
+labels: ["bug", "triage"]
 body:
   - type: checkboxes
     attributes:
@@ -41,7 +42,8 @@ body:
   - type: textarea
     attributes:
       label: Steps to reproduce the behavior
-      description: Tell us what happens instead.
+      description: |
+        Step by step.
       placeholder: 1.
     validations:
       required: false
