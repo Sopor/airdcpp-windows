@@ -12,7 +12,7 @@ body:
           required: true
         - label: I performed a [cursory search of the issue tracker](https://github.com/airdcpp/airdcpp-windows/issues) to avoid opening a duplicate issue
           required: true
-        - label: I am running the latest version of AirDC++
+        - label: I am running the latest version of AirDC++ ![version](https://img.shields.io/github/release/airdcpp/airgit.svg?label=version&maxAge=3600)
           required: true
 
   - type: textarea
