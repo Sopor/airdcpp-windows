@@ -86,6 +86,6 @@ body:
     attributes:
       label: Additional information
       description: |
-        You can provide additional information here to make it easier to understand your issue.
+        You can provide additional information here to make it easier to understand your problem.
     validations:
       required: false
