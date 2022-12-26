@@ -48,7 +48,7 @@ body:
     validations:
       required: false
 
-- type: textarea
+  - type: textarea
     attributes:
       label: Screenshot(s)
       description: |
