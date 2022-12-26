@@ -18,7 +18,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        !  [version](https://img.shields.io/github/release/airdcpp/airgit.svg?label=Latest%20version&maxAge=3600)
+        "     ![version](https://img.shields.io/github/release/airdcpp/airgit.svg?label=Latest%20version&maxAge=3600)"
 
   - type: textarea
     attributes:
