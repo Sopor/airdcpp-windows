@@ -15,6 +15,10 @@ body:
         - label: I am running the latest version of AirDC++
           required: true
 
+  - type: markdown
+    attributes:
+      label: ![version]https://img.shields.io/github/release/airdcpp/airgit.svg?label=AirDC%2B%2B&maxAge=3600&logo=windows
+
   - type: textarea
     attributes:
       label: Describe the issue
