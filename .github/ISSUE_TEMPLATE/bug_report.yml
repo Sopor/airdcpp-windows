@@ -19,7 +19,7 @@ body:
     attributes:
       label: Describe the issue
       description: |
-        Be as clear as possible: nobody can read mind, and nobody is looking at your issue over your shoulder.
+        Be as clear as possible. Nobody can read mind and nobody is looking at your issue over your shoulder.
     validations:
       required: true
 
@@ -57,6 +57,16 @@ body:
     validations:
       required: false
 
+  - type: textarea
+    attributes:
+      label: exceptioninfo.txt
+      description: |
+        When AirDC++ crash it will sometimes create an exceptioninfo.txt.
+        Open it and verify it is the correct date and time of the crash.
+      placeholder: Paste all text from exceptioninfo.txt here
+    validations:
+      required: false
+
   - type: input
     attributes:
       label: AirDC++ version and architecture (x86 or x64)
@@ -75,6 +85,6 @@ body:
     attributes:
       label: Additional information
       description: |
-        " "
+        You can provide additional information here to make it easier to understand your issue.
     validations:
       required: false
