@@ -1,7 +1,7 @@
 name: 💡 Feature request
-description: Create a report for a new feature request
+description: Create a report for a feature request
 title: "💡 [Feature request]: "
-labels: ["feature request"]
+labels: ["feature request,triage"]
 body:
   - type: checkboxes
     attributes:
