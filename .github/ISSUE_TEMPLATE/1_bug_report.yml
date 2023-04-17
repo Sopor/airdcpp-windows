@@ -84,7 +84,6 @@ body:
 
         </details>
       placeholder: Paste all text from exceptioninfo.txt here.
-      <!-- render: shell -->
     validations:
       required: false
 
