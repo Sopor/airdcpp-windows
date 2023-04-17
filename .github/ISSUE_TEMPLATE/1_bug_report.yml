@@ -66,6 +66,7 @@ body:
         <!-- drag-and-drop screenshot here -->
 
         </details>
+      placeholder: Add screenshot here.
     validations:
       required: false
 
