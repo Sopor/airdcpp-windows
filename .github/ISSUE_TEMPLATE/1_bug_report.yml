@@ -60,12 +60,6 @@ body:
       description: |
         Add screenshot(s) to describe visual issues.
       value: |
-        <details>
-        <summary>Screenshot(s)</summary>
-
-        <!-- drag-and-drop screenshot here -->
-
-        </details>
       placeholder: Add screenshot here.
     validations:
       required: false
@@ -77,12 +71,7 @@ body:
         When AirDC++ crash it will sometimes create an `exceptioninfo.txt`. Open it and verify it is the correct date and time of the crash.
         If your client won't create any exceptioninfo.txt you can read more **[here](https://github.com/Sopor/airdcpp-windows/wiki/Client-hangs-(deadlock)#getting-information-from-a-frozen-or-hung-client)** how to get information out of a frozen client.
       value: |
-        <details>
-        <summary>Log file</summary>
-
-        <!-- drag-and-drop exceptioninfo.txt or WinDbg logs here -->
-
-        </details>
+      render: shell
       placeholder: Paste all text from exceptioninfo.txt here.
     validations:
       required: false
