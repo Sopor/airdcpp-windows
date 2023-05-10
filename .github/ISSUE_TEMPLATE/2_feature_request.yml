@@ -1,7 +1,7 @@
 name: 💡 Feature request
-description: Create a report for a feature request
+description: Suggest an idea for improving AirDC++
 title: "💡 [Feature request]: <title>"
-labels: ["feature request,triage"]
+labels: ["enhancement,triage"]
 body:
   - type: checkboxes
     attributes:
@@ -15,27 +15,27 @@ body:
 
   - type: textarea
     attributes:
-      label: Describe the issue
+      label: Is your proposal related to a problem?
       description: |
-        Be as clear as possible. Nobody can read mind and nobody is looking at your issue over your shoulder.
+        If not, simple write No.
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Expected behavior
+      label: Describe the solution you would like
       description: |
-        Tell us what should happen.
+        .
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Actual behavior
+      label: Describe alternatives you have considered
       description: |
-        Tell us what happens instead.
+        .
     validations:
-      required: true
+      required: false
 
   - type: textarea
     attributes:
